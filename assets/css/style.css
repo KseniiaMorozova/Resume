@@ -1,3 +1,8 @@
+
+body {
+	font-family: 'Rubik', sans-serif;
+}
+
 .line {
 	box-shadow: inset -1px 0 0 #D3D3D3;
 }
@@ -7,11 +12,11 @@
 	height: 70px;
 	border-radius: 150px;
 	box-shadow: 0 0 0 3px #000000, 0 0 13px #333;
-	margin-top: 10px;
+	margin-top: 35px;
 }
 
 .name {
-	letter-spacing: 3px;
+	letter-spacing: 5px;
 	margin: 0px;
 	margin-top: 40px;
 }
@@ -36,4 +41,16 @@ div.progress-bar {
 .info {
 	text-transform: uppercase;
 	margin-top: 15px;
+}
+
+@media (max-width: 575.98px) {
+	.name {
+		text-align: center;
+	}
+	.role {
+		text-align: center;
+	}
+	.round {
+		margin-left: 130px;
+	}
 }
