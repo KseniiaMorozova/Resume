@@ -1,3 +1,30 @@
 .line {
 	box-shadow: inset -1px 0 0 #D3D3D3;
 }
+
+.round {
+	width: 70px;
+	height: 70px;
+	border-radius: 150px;
+	box-shadow: 0 0 0 3px #000000, 0 0 13px #333;
+	margin-top: 10px;
+}
+
+.name {
+	letter-spacing: 3px;
+	margin: 0px;
+}
+
+.role {
+	color: #778899;
+	font-size: 16px;
+	letter-spacing: 2px;
+}
+
+a.sm-link {
+	color: #000000;
+}
+
+.info {
+	text-transform: uppercase;
+}
