@@ -5,20 +5,21 @@ body {
 
 .line {
 	box-shadow: inset -1px 0 0 #D3D3D3;
+	
 }
 
 .round {
-	width: 70px;
-	height: 70px;
+	width: 143px;
+	height: 143px;
 	border-radius: 150px;
 	box-shadow: 0 0 0 3px #000000, 0 0 13px #333;
-	margin-top: 35px;
+	margin-top: 80px;
 }
 
 .name {
 	letter-spacing: 5px;
 	margin: 0px;
-	margin-top: 40px;
+	margin-top: 120px;
 }
 
 .role {
@@ -27,22 +28,36 @@ body {
 	letter-spacing: 2px;
 }
 
+.separator {
+	color: #000000;
+	width: 100%;
+}
 
 a.sm-link {
 	color: #000000;
 }
 
 .progress {
-	margin-top: 10px;
+	margin-top: 21px;
 }
+
 div.progress-bar {
-	background-color: #B0C4DE; 
+	background-color: #C0C0C0; 
 }
 
 .info {
 	text-transform: uppercase;
 	margin-top: 15px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
+}
+
+.reference {
+	margin-top: 20px;
+}
+
+.footer {
+	width: 100%;
+	height: 80px;
 }
 
 @media (max-width: 575.98px) {
@@ -53,6 +68,13 @@ div.progress-bar {
 		text-align: center;
 	}
 	.round {
-		margin-left: 130px;
+		margin-left: 100px;
+		margin-top: 0px;
 	}
+	.hr {
+		display: none;
+}
+	.line {
+	box-shadow: inset -1px 0 0 #FFFAFA;
+}
 }
