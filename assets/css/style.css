@@ -25,6 +25,14 @@ a.sm-link {
 	color: #000000;
 }
 
+.progress {
+	margin-top: 10px;
+}
+div.progress-bar {
+	background-color: #B0C4DE; 
+}
+
 .info {
 	text-transform: uppercase;
+	margin-top: 15px;
 }
