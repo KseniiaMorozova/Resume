@@ -3,24 +3,6 @@ body {
 	font-family: 'Rubik', sans-serif;
 }
 
-.line {
-	box-shadow: inset -3px 0 0 #D3D3D3;
-}
-
-.divided-line {
-	height: 8px;
-    border: 0;
-    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
-}
-
-.round {
-	width: 143px;
-	height: 143px;
-	border-radius: 150px;
-	box-shadow: 0 0 0 3px #000000, 0 0 13px #333;
-	margin-top: 80px;
-}
-
 .name {
 	letter-spacing: 5px;
 	margin: 0px;
@@ -34,38 +16,58 @@ body {
 	text-transform: uppercase;
 }
 
+.round {
+	width: 135px;
+	height: 135px;
+	border-radius: 150px;
+	box-shadow: 0 0 0 3px #000000, 0 0 13px #333;
+	margin-top: 80px;
+}
+
 .separator {
+	margin-top: 0px;
+	margin-bottom: 40px;
 	height: 5px;
     border: 0;
     border-radius: 150px;
     box-shadow: inset 0 20px 20px 0px #000000;
 }
 
-div.col-md-3 {
- 	border-right: 1px solid black;
+.line {
+	box-shadow: inset -2px 0 0 #D3D3D3;
 }
 
-div.col-md-4 {
- 	border-right: 1px solid black;
+.divided-line {
+	height: 3px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px #DCDCDC;
+}
+
+.contacts {
+ 	border-left: 1px solid black;
 }
 
 a.sm-link {
 	color: #000000;
 }
+.position {
+	font-style: italic;
+}
 
 .progress {
 	margin-bottom: 18px;
+
 }
 
 div.progress-bar {
-	background-color: #C0C0C0; 
+	background-color: #7D7D7D; 
 }
 
 .info {
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	margin-top: 15px;
-	margin-bottom: 30px;
+	margin-top: 5px;
+	margin-bottom: 15px;
 }
 
 .reference {
