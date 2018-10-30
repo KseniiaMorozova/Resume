@@ -37,6 +37,13 @@ body {
 	width: 100%;
 }
 
+div.col-md-3 {
+ 	border-right: 1px solid black;
+}
+
+div.col-md-4 {
+ 	border-right: 1px solid black;
+}
 
 a.sm-link {
 	color: #000000;
