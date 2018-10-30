@@ -4,8 +4,11 @@ body {
 }
 
 .line {
-	box-shadow: inset -1px 0 0 #D3D3D3;
-	
+	box-shadow: inset -2px 0 0 #D3D3D3;
+}
+
+.divided-line {
+	size: 7;
 }
 
 .round {
@@ -26,6 +29,7 @@ body {
 	color: #778899;
 	font-size: 16px;
 	letter-spacing: 2px;
+	text-transform: uppercase;
 }
 
 .separator {
@@ -48,6 +52,7 @@ div.progress-bar {
 
 .info {
 	text-transform: uppercase;
+	letter-spacing: 3px;
 	margin-top: 15px;
 	margin-bottom: 30px;
 }
