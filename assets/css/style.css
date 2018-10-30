@@ -77,27 +77,4 @@ div.progress-bar {
 	height: 80px;
 }
 
-@media (min-width: 576px) {
-	.name {
-		text-align: center;
-	}
-	.role {
-		text-align: center;
-	}
-	.round {
 
-		margin-top: 0px;
-	}
-	.hr {
-		display: none;
-}
-	.line {
-	box-shadow: inset -1px 0 0 #FFFAFA;
-}
-	.separator {
-		display: none;
-	}
-	.divided-line {
-		display: none;
-	}
-}
