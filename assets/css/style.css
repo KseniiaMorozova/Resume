@@ -1,33 +1,36 @@
 
 body {
 	font-family: 'Rubik', sans-serif;
+	background-color: #F3F3F3;
 }
 
 .name {
+	text-transform: uppercase;
+	font-size: 45px;
 	letter-spacing: 5px;
 	margin: 0px;
-	margin-top: 120px;
+	margin-top: 100px;
 }
 
 .role {
 	color: #778899;
-	font-size: 16px;
+	font-size: 18px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 }
 
 .round {
-	width: 135px;
-	height: 135px;
+	width: 150px;
+	height: 150px;
 	border-radius: 150px;
 	box-shadow: 0 0 0 3px #000000, 0 0 13px #333;
-	margin-top: 80px;
+	margin-top: 60px;
 }
 
 .separator {
 	margin-top: 0px;
 	margin-bottom: 40px;
-	height: 5px;
+	height: 8px;
     border: 0;
     border-radius: 150px;
     box-shadow: inset 0 20px 20px 0px #000000;
@@ -43,6 +46,14 @@ body {
     box-shadow: inset 0 12px 12px -12px #DCDCDC;
 }
 
+.social {
+	font-size: 15px;
+}
+
+.adress {
+	font-size: 18px;
+}
+
 .contacts {
  	border-left: 1px solid black;
 }
@@ -50,12 +61,33 @@ body {
 a.sm-link {
 	color: #000000;
 }
-.position {
-	font-style: italic;
+
+
+.workplace {
+	font-size: 17px;
 }
 
-.progress {
-	margin-bottom: 18px;
+.timeline {
+	font-size: 17px;
+}
+
+.position {
+	font-style: italic;
+	font-size: 17px;
+	margin-bottom: 0px;
+}
+
+.description {
+	margin-bottom: 30px;
+}
+
+.skills {
+	font-size: 17px;
+	margin: 5px;
+}
+
+.bar {
+	margin: 16px;
 
 }
 
@@ -65,9 +97,10 @@ div.progress-bar {
 
 .info {
 	text-transform: uppercase;
-	letter-spacing: 3px;
-	margin-top: 5px;
-	margin-bottom: 15px;
+	letter-spacing: 4px;
+	font-size: 27px;
+	margin-top: 32px;
+	margin-bottom: 21px;
 }
 
 .reference {
