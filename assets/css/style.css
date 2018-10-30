@@ -54,7 +54,7 @@ a.sm-link {
 }
 
 .progress {
-	
+	margin-bottom: 18px;
 }
 
 div.progress-bar {
@@ -94,4 +94,10 @@ div.progress-bar {
 	.line {
 	box-shadow: inset -1px 0 0 #FFFAFA;
 }
+	.separator {
+		display: none;
+	}
+	.divided-line {
+		display: none;
+	}
 }
