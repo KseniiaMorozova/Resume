@@ -79,6 +79,8 @@ a.sm-link {
 
 .description {
 	margin-bottom: 30px;
+	font-weight: 300;
+	font-size: 16px;
 }
 
 .skills {
