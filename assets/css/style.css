@@ -116,33 +116,41 @@ div.progress-bar {
 @media screen and (max-width: 600px) {
 	.round {
 		margin-left: 120px;
+		margin-top: 20px;
 	}
 
 
 	.skills {
-		visibility: hidden;
+		display: none;
 	}
 
 	.bar {
-		visibility: hidden;
+		display: none;
 }
 
 	div.progress-bar {
-		visibility: hidden;
+		display: none;
 	}
 
 	.expertise {
-		visibility: hidden;
+		display: none;
 	}
 	.separator {
-		visibility: hidden;
+		display: none;
 	}
 	.name {
 		text-align: center;
+		margin-top: 20px;
 	}
 	.role {
 		text-align: center;
 	}
-
+	.info {
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	.footer {
+		display: none;
+	}
 }
 
