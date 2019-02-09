@@ -147,6 +147,12 @@ div.progress-bar {
 	.role {
 		text-align: center;
 	}
+	.divided-line {
+		display: none;
+	}
+	.line {
+		box-shadow: inset -2px 0 0 #F5F5F5;
+	}
 	.info {
 		margin-bottom: 20px;
 		margin-top: 20px;
