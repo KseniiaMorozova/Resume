@@ -80,11 +80,7 @@ a.sm-link {
 .description {
 	margin-bottom: 30px;
 	font-weight: 300;
-	font-size: 16px;
-}
-
-.em {
-  font-style: italic;
+	font-size: 16px;	font-style: italic;
 }
 
 .skills {
