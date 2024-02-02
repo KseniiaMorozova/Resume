@@ -20,9 +20,9 @@ body {
 }
 
 .responsibilities {
-	color: #778899;
+	margin-bottom: 30px;
+	font-weight: 300;
 	font-size: 10px;
-	letter-spacing: 2px;
 }
 
 .round {
