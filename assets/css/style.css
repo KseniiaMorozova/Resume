@@ -19,6 +19,12 @@ body {
 	text-transform: uppercase;
 }
 
+.responsibilities {
+	color: #778899;
+	font-size: 10px;
+	letter-spacing: 2px;
+}
+
 .round {
 	width: 150px;
 	height: 150px;
