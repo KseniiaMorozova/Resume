@@ -79,8 +79,9 @@ a.sm-link {
 
 .description {
 	margin-bottom: 30px;
-	font-weight: 300;
-	font-size: 16px;	
+	font-family: "Fira Sans", sans-serif;
+  	font-weight: 300;
+  	font-style: italic;	
 }
 
 .resp {
