@@ -84,7 +84,8 @@ a.sm-link {
 }
 
 .resp {
-	font-weight: normal;	
+	font-weight: normal;
+        font-style: italic;	
 }
 
 .skills {
