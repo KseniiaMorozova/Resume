@@ -85,6 +85,8 @@ a.sm-link {
 
 .resp {
 	font-weight: normal;
+	font-family: "Fira Sans", sans-serif;
+  	font-weight: 100;
 	font-size: 14px;
 	font-style: italic;
 }
